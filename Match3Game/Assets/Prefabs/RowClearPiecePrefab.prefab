@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6094327279635238235}
   - component: {fileID: 6094327279635238232}
   - component: {fileID: 6094327279635238233}
-  - component: {fileID: 154264461}
+  - component: {fileID: 8676450535620570124}
   m_Layer: 0
   m_Name: RowClearPiecePrefab
   m_TagString: Untagged
@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9879c96e559c4a4b8075e6eeaf434d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 600
 --- !u!114 &6094327279635238235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,7 +132,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &154264461
+--- !u!114 &8676450535620570124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,10 +141,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6094327279635238238}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ed6d9534f36e4ee692d85ada12abf84, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f2107514cf3f402c95d0cec814b08e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clearAnimation: {fileID: 7400000, guid: 2ee666ae4d3434706a9d09f0475319d0, type: 2}
+  clearAnimation: {fileID: 7400000, guid: 89172c813213f4332896e99a0079031d, type: 2}
+  isRow: 1
 --- !u!1 &6094327279704953649
 GameObject:
   m_ObjectHideFlags: 0
