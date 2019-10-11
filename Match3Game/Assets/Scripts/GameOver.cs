@@ -56,7 +56,7 @@ public class GameOver : MonoBehaviour
     private IEnumerator ShowWinCoroutine(int starCount)
     {
         yield return new WaitForSeconds(0.5f);
-        if (starCount < stars.Length)
+        if (starCount <= stars.Length)
         {
             for (int i = 0; i < starCount; i++)
             {

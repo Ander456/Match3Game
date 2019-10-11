@@ -153,7 +153,7 @@ public class Grid : MonoBehaviour
                         SpanNewPiece(x, y, PieceType.EMPTY);
                         movedPiece = true;
                     }
-                    else //如果下面不能直接移动看看左下或者右下能不能挤过去
+                    else // 如果下面不是empty的看看有么有控件挤进去
                     {
                         for (int diag = -1; diag <= 1; diag++)
                         {
